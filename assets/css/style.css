@@ -1,6 +1,9 @@
 .logo{
     width: 100px;
 }
+body{
+   /* background-color: black;*/
+}
 .carousel-item img {
     max-height: 600px; 
     object-fit: cover;
@@ -21,4 +24,19 @@ footer{
 .contenido {
     color: rgb(8, 8, 8); 
     text-align: center;
+}
+#carouselExampleSlidesOnly {
+    max-width: 1000px; /* Cambia este valor según lo necesites */
+    margin: 0 auto; 
+}
+
+.carousel-item img {
+    height: auto; /* Asegúrate de que la altura se ajuste automáticamente */
+    max-height: 400px; /* Cambia este valor según lo necesites */
+    object-fit: cover; /* Mantiene la proporción de las imágenes */
+}
+
+.versiculo{
+    color:rgb(14, 14, 14);
+    background-color: bisque;
 }
