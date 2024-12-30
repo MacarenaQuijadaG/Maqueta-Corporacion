@@ -4,17 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/FormularioContacto.css">
     <link rel="icon" href="assets/img/logo.png" type="image-icon">
     <title>Ejército Evangélico de Chile</title>
+    
 </head>
 <body>
-    <!--NAVBAR -->
+    <!-- NAVBAR -->
     <section>
       <nav class="navbar navbar-dark navbar-expand-lg bg-black w-100">
         <div class="container-fluid">
-          <img class="logo" src="assets/img/logo.png" alt="Imagen Logo">
+          <img class="logo" src="assets/img/logo.png" alt="Imagen Logo" style="width: 50px;">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -30,82 +31,74 @@
         </div>
       </nav>
     </section>
-    
-    
-     <!--Bienvenida-->
-      <section>
-         <h1 class="d-flex justify-content-center">Bienvenidos al Templo Bet-el</h1>
-       </section>
-    
 
-    <!--cards con info-->
-    <section class="container-fluid">
-      <div class="row">
-        <div class="row">
-          <div class="col-sm-6 mb-3 mb-sm-0">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Mision</h5>
-                <p class="card-text">"Proclamar el Evangelio de Jesucristo a todas las naciones, llevando el mensaje de salvación, amor y esperanza a través de la enseñanza bíblica, la adoración y el servicio. Nuestra misión es guiar a las personas hacia una relación personal con Dios, discipular a los creyentes en su fe y equiparlos para vivir y compartir el evangelio con integridad y compasión, siguiendo el ejemplo de Jesús."</p>
-                <h5 class="card-title">Vision</h5>
-                <p class="card-text">"Ser una comunidad transformada por el amor de Cristo, comprometida a impactar positivamente la sociedad mediante la extensión del Reino de Dios. Nuestra visión es ver a familias, comunidades y naciones restauradas por el poder del Espíritu Santo, donde los valores del Reino de Dios —justicia, paz y amor— guíen las vidas de todos los creyentes y se extiendan a aquellos que aún no conocen a Jesucristo."</p>
-              </div>
-            </div>
+    <!-- Bienvenida -->
+    <section>
+       <h1 class="d-flex justify-content-center mt-4">Bienvenidos al Templo Bet-el</h1>
+    </section>
+
+    <!-- Carrusel -->
+    <section>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carrusel 2.jpg" class="d-block w-100 img-fluid" style="height: 100vh; object-fit: cover;" alt="Imagen Carrusel 1">
           </div>
-          <div class="col-sm-6">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">Horarios Servicios</h5>
-                <p>Pasaje el Quillay #862, Poblacion 11 Sep.</p>
-                <ul>
-                  <li>Martes 19:30 Horas</li>
-                  <li>Viernes 19:30 Horas</li>
-                  <li>Sabado 19:30 Horas</li>
-                </ul>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <img src="assets/img/carrusel 5.jpg" class="d-block w-100 img-fluid" style="height: 100vh; object-fit: cover;" alt="Imagen Carrusel 2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carrusel bautismos.jpg" class="d-block w-100 img-fluid" style="height: 100vh; object-fit: cover;" alt="Imagen Carrusel 3">
           </div>
         </div>
       </div>
     </section>
-    <!--Contacto Post-->
-   
+     <!-- Cita Bíblica -->
+     <section class="my-4">
+      <div class="alert alert-danger mx-3" role="alert">
+        Jesús nos dice: "Por tanto, id, y haced discípulos a todas las naciones..." (Mateo 28:19-20)
+      </div>
+    </section>
 
-     <!--CARRUSEL-->
-     <section>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <img src="assets/img/carrusel 2.jpg" class="d-block w-100" alt="...">
+     <!-- Cards con Información -->
+     <section class="container-fluid my-4">
+      <div class="row">
+          <div class="col-sm-6 mb-3">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title">Misión</h5>
+                <p class="card-text">Proclamar el Evangelio de Jesucristo a todas las naciones, llevando el mensaje de salvación...</p>
+                <h5 class="card-title">Visión</h5>
+                <p class="card-text">Ser una comunidad transformada por el amor de Cristo, comprometida a impactar positivamente...</p>
               </div>
-              <div class="carousel-item">
-                  <img src="assets/img/predica carrusel.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card shadow">
+              <div class="card-body">
+                <h5 class="card-title">Horarios Servicios</h5>
+                <p>Pasaje el Quillay #862, Población 11 Sep.</p>
+                <ul>
+                  <li>Martes 19:30 Horas</li>
+                  <li>Viernes 19:30 Horas</li>
+                  <li>Sábado 19:30 Horas</li>
+                </ul>
               </div>
-              <div class="carousel-item">
-                  <img src="assets/img/carrusel bautismos.jpg" class="d-block w-100" alt="...">
-              </div>
+            </div>
           </div>
       </div>
-  </section>
+    </section>
 
-  <section>
-    <div class="alert alert-danger" role="alert">
-      “Jesús nos dice: Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo, Amén” (mateo 28: 19-20)
-    </div>
-  </section>
-    <!--FOOTER-->
-    <footer >
-      <div>
-          <p>&copy; 2024 Ejercito Evangelico de chile. Todos los derechos reservados.</p>
-          <p>Contáctanos: info@tuempresa.com | Teléfono: 123-456-789</p>
-          <p>Pasaje Quillay # 862, Poblacion 11 Septiembre.</p>
-          <p>Comuna San Carlos, Region de Ñuble.</p>
-      </div>
-  </footer>    
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Ejército Evangélico de Chile. Todos los derechos reservados.</p>
+      <p>Contáctanos: info@tuempresa.com | Teléfono: 123-456-789</p>
+      <p>Pasaje Quillay #862, Población 11 Septiembre, Comuna San Carlos, Región de Ñuble.</p>
+    </footer>
 
-    <script src="script.js"></script>
-    
-    <!-- Bootstrap JS y Popper.js -->
+    <!-- JS -->
+  
+    <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
